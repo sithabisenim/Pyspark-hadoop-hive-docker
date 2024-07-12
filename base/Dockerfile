@@ -14,7 +14,7 @@ RUN sed -i -e "s|http://archive.ubuntu.com|http://jp.archive.ubuntu.com|g" /etc/
       libc6-dev \
  && rm -rf /var/lib/apt/lists/*
 
-ARG USERNAME=jovyan
+ARG USERNAME=Sithabiseni
 ARG GROUPNAME=users
 ARG UID=1000
 ARG GID=100
